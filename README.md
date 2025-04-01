@@ -1,6 +1,7 @@
 # spike-text-classification
 + Use Pytorch to build and predict the output.
 + For model version 2. Use the xlm-roberta-base pretrained model as the tokenizer
++ Just use the example dataset `ucirvine/sms_spam` from HuggingFace
 
 ## Install environment
 ### Install python3
