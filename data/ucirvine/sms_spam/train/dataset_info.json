@@ -1,0 +1,45 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "plain_text",
+  "dataset_name": "sms_spam",
+  "dataset_size": 522449,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/ucirvine/sms_spam@cae486f927c250fe1d4a5b55f11357964ed1646c/plain_text/train-00000-of-00001.parquet": {
+      "num_bytes": 358869,
+      "checksum": null
+    }
+  },
+  "download_size": 358869,
+  "features": {
+    "sms": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "label": {
+      "names": [
+        "ham",
+        "spam"
+      ],
+      "_type": "ClassLabel"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 881318,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 522449,
+      "num_examples": 5574,
+      "dataset_name": "sms_spam"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
